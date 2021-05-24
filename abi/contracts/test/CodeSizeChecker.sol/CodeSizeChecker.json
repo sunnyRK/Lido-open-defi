@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "which",
+        "type": "address"
+      }
+    ],
+    "name": "codeSize",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "ret",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

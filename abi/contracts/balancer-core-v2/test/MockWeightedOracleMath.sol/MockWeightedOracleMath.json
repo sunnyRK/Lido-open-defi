@@ -1,0 +1,103 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "normalizedWeight",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "balance",
+        "type": "uint256"
+      },
+      {
+        "internalType": "int256",
+        "name": "bptTotalSupplyLn",
+        "type": "int256"
+      }
+    ],
+    "name": "calcLogBPTPrice",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "normalizedWeightA",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "balanceA",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "normalizedWeightB",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "balanceB",
+        "type": "uint256"
+      }
+    ],
+    "name": "calcLogSpotPrice",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256",
+        "name": "value",
+        "type": "int256"
+      }
+    ],
+    "name": "fromLowResLog",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "toLowResLog",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]
